@@ -38,6 +38,22 @@
   outline: 0;
 }
 
+/* 밑에 나타났다가 사라졌다가 하자 */
+.error-message {
+  display: none;
+  color: red;
+  font-size: 11px;
+  text-align: right;
+}
+
+.ok-message {
+  display: none;
+  color:rgb(72, 144, 0);
+  font-size: 11px;
+  text-align: right;
+
+}
+
 .signup-form button {
   outline: none;
   border: none;
@@ -49,9 +65,9 @@
   background: rgba(112, 112, 112, 0.2);
 }
 
-.signup-form a:last-child {
+/* .signup-form a:last-child {
   width: 100%;
   border-top: 1px rgba(0,0,0,0.2) solid;
   margin-top: 2em;
   padding-top: .6em;
-}
+} */
