@@ -1,0 +1,57 @@
+.signup-wrapper {
+  margin: 10vh auto;
+  width: 17rem;
+  text-align: center;
+}
+
+.signup-form {
+  font-family: "Inter", 'NotoSansKR', sans-serif;
+  display: flex;
+  flex-direction: column;
+  
+  text-align: center;
+  margin-top: 50px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  padding: 90px 40px 55px 40px;
+  box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+
+  font-size: 16px;
+}
+
+.logo a { /*common.css 에 넣을까?*/
+  justify-content: center;
+}
+
+.signup-form label {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 9px;
+}
+
+.signup-form input {
+  margin: 0 0 1.2em;
+  padding: 8px 12px;
+  border-radius: 0.25rem;
+  height: 40px;
+  line-height: 24px;
+  outline: 0;
+}
+
+.signup-form button {
+  outline: none;
+  border: none;
+  border-radius: .3em;
+  padding: .6em 1.3em;
+  font-size: 1em;
+}
+.signup-form button:hover{
+  background: rgba(112, 112, 112, 0.2);
+}
+
+.signup-form a:last-child {
+  width: 100%;
+  border-top: 1px rgba(0,0,0,0.2) solid;
+  margin-top: 2em;
+  padding-top: .6em;
+}
