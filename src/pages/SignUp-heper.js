@@ -16,7 +16,7 @@ export default { // function returns boolean type.
     const passRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$/; //8글자이상, 하나이상의 숫자, 하나이상의 문자, 하나이상의 특수문자 들어갔는지
     return lengthInvalidCheck(target.length, 8, 20)
             && regCheck(target, passRegex)
-            && (target === input.passwordCheck)
+            // && (target === input.passwordCheck)
   },
   passwordCheck: (target, input)=>{
     return (target === input.password)

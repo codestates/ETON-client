@@ -26,11 +26,10 @@
 .signup-form label {
   font-size: 14px;
   text-align: left;
-  margin-bottom: 9px;
+  margin: 1.2em 0 9px;
 }
 
 .signup-form input {
-  margin: 0 0 1.2em;
   padding: 8px 12px;
   border-radius: 0.25rem;
   height: 40px;
@@ -44,6 +43,8 @@
   color: red;
   font-size: 11px;
   text-align: right;
+  margin: 1px;
+
 }
 
 .ok-message {
@@ -51,10 +52,12 @@
   color:rgb(72, 144, 0);
   font-size: 11px;
   text-align: right;
-
+  margin: 1px;
 }
 
 .signup-form button {
+
+  margin-top: 1.2em; 
   outline: none;
   border: none;
   border-radius: .3em;

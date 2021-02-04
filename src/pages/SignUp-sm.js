@@ -71,8 +71,8 @@ const SignUp = () => {
       } else if (tName === 'passwordCheck'){
         $errorSection.textContent = '❌ 같은 비밀번호를 써주세요'
         const $passwordErrorSection = document.querySelector(`.error-message.password`);
-        $passwordErrorSection.textContent = '❌ (8~20) 문자, 숫자, 특수문자가 각각 하나 이상 기입해주세요';
-        $passwordErrorSection.style.display = 'block'
+        // $passwordErrorSection.textContent = '❌ (8~20) 문자, 숫자, 특수문자가 각각 하나 이상 기입해주세요';
+        // $passwordErrorSection.style.display = 'block'
 
       }
     } else{
@@ -130,7 +130,6 @@ const SignUp = () => {
   return (
     <section className="signup-wrapper">
       <Logo/>
-      선미 Sign Up
       <section className="signup-form">
         <label>이메일</label>
         <input type="email" name="email" onChange={inputHandler} placeholder="Enter email"/>
